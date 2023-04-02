@@ -37,3 +37,9 @@ Input:
 masaladosa 1
 Output:
 Sorry,Only recipes in the menu !
+Question:2
+Given a string S converts each of the characters into numbers(ASCII) and print the sum of the numbers.
+Input:
+abc
+output:
+294
