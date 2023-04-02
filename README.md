@@ -43,3 +43,28 @@ Input:
 abc
 output:
 294
+Question:3
+An interview is scheduled for a list of students in GUVI Office, and
+the candidate list has been shared to the interview panel
+But in the last minute HR came to know the last n students in the
+candidate list need to be given priority, since they need to catch a
+flight
+For Example, with n=7 candidates and k=3 need to catch their flight
+So the order need to be changed as
+(12.3.4.5.6.7}to{5,6,7,1,2,3,4)
+If k <=0.no shuffling is needed
+Write a program to help the HR to shuffle the candidate list so that
+last n will come in the first
+Input:
+n-No. of candidates
+K-No. of candidates in the end of the list who need
+to be given priority
+al-Candidates list
+Expected Output
+Output
+Candidates list in shufled order.
+Input:
+7
+3
+1 2 3 4 5 6 7
+5 6 7 1 2 3 4
