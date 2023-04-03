@@ -67,4 +67,12 @@ Input:
 7
 3
 1 2 3 4 5 6 7
+Output:
 5 6 7 1 2 3 4
+Question:4
+Given a number N print all numbers less than N.
+Input:
+10
+Output:
+2 3 5 7
+
