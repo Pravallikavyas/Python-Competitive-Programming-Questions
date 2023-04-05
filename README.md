@@ -70,9 +70,32 @@ Input:
 Output:
 5 6 7 1 2 3 4
 Question:4
-Given a number N print all numbers less than N.
+Given a number N print all prime numbers less than N.
 Input:
 10
 Output:
 2 3 5 7
+Question:5
+In a magical world,student and teacher are chosen by some rule.You are given the name of the student and name of the teacher,you have to tell whether they are chosen or not.
+The process is as follows:the name of the student and teacher are first converted to numbers by the process described below.If the students number mod 47 and teachers number mod 47 is same then they would be chosen otherwise not.The number corresponding to a name is deduced by multiplying individual numbers assigned to its letters.Letter 'A' is assigned 1,'B' is assigned 2...so...till..'Z'is 26.
+For instance,"ANKUR" would be 1*14*11*21*18=58212.
+Print"CHOSEN" if the above condition satisfied otherwise print "NOT CHOSEN".
+INPUT:
+Line 1:An Uppercase character string representing the name of the student(S).
+Line 2:An Uppercase character string representing the name of the teacher(T).
+OUTPUT:
+A single line containing either the word "CHOSEN" or the word "NOT CHOSEN".
+Constraints:
+1<=Length of both strings<=100
+Input:
+A
+Z
+Output:
+NOT CHOSEN
+Input:
+COMETQ
+HVNGAT
+Output:
+CHOSEN
+
 
