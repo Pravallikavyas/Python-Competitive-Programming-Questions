@@ -97,5 +97,18 @@ COMETQ
 HVNGAT
 Output:
 CHOSEN
+Question:6
+Karthick is a mathematical genius. He wants to solve the followong problem: given array of N integers A and a number K. During a turn the maximal value over all A[i] is chosen, let's call it MAX. Then A[i]= MAX - A[i] is done for every 1 <=i<= N. Help Karthick to find out how will the array look like after K turns.
+Input:
+The numbers N and K are given in the first line of an input. Then N integers
+are given in the second line which denote the array A.
+Output:
+Output N numbers on a single line. It should be the array A after K turns.
+Example:
+Input:
+4 1
+5 -1 7 0
+Output:
+2 8 0 7
 
 
