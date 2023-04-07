@@ -110,5 +110,15 @@ Input:
 5 -1 7 0
 Output:
 2 8 0 7
+Question 7:
+Ram loves bit magic. He is given a set of integers, and wants to sort them based on the number of 1s in their binary representations (in descending order). Help Ram do a little bit of bit magic!
+inputDescription: Number of elements followed by the elements
+outputDescription: Sorted list of numbers
+sample input:
+6
+1 2 3 4 5 6
+sample output:
+3 5 6 1 2 4
+
 
 
